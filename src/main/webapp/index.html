@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="MovieApp">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.min.js"></script>
+<script src="app.js"></script>
+<script src="templates/search/search.controller.js"></script>
+<script src="templates/details/details.controller.js"></script>
+</head>
+<body>
+  <div>
+    <h1>Movie Application</h1>
+    <a href="#!search">Search</a>
+    <a href="#!details">Details</a>
+    <div ng-view></div>
+  </div>
+</body>
+</html>
